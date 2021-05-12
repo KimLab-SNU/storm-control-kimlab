@@ -1,7 +1,7 @@
 # storm-control-IOAH
 Microscope control software modified by IOAH.
 
-Special thanks to @[Zhuang Lab](http://zhuang.harvard.edu) for the original codes.
+Special thanks to @[Zhuang Lab](http://zhuang.harvard.edu) for the original code.
 
 ##
 
