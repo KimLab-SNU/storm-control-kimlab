@@ -1,6 +1,8 @@
 # storm-control-IOAH
 Microscope control software modified by IOAH.
 
+**This codes are only available in Python 3!**
+
 Special thanks to @[Zhuang Lab](http://zhuang.harvard.edu) for the original code.
 
 ##
