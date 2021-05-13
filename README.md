@@ -1,4 +1,4 @@
-# storm-control-IOAH
+# storm-control-kimlab
 Microscope control software modified by IOAH.
 
 **This codes are only available in Python 3!**
