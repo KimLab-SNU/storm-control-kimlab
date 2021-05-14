@@ -259,7 +259,6 @@ class SpotPicture(SpotWidget):
         # will flow back to the original list.
         color = color.copy()
         color.append(5)
-        print("color : ", color)
         
         x = numpy.round(self.scale*locs[0])
         y = numpy.round(self.scale*locs[1])
