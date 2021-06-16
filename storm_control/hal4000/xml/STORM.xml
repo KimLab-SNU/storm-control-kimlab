@@ -156,10 +156,10 @@
       <configuration>
 	<use_fsk type="boolean">False</use_fsk>
 	<fsk_mode type="int">1</fsk_mode>
-	<python32_exe type="string">C:/Users/admin/AppData/Local/Programs/Python/Python39-32/python</python32_exe>
+	<python32_exe type="string">C:/Users/admin/AppData/Local/Programs/Python/Python36-32/python</python32_exe>
 	
 	<!--
-	<python32_exe type="string">C:/Users/hazen/AppData/Local/Programs/Python/Python36-32/python</python32_exe>
+	<python32_exe type="string">C:/Users/hazen/AppData/Local/Programs/Python/Python39-32/python</python32_exe>
 	-->
 	
 	<ch642>

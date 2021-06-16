@@ -251,7 +251,6 @@ class SpotPicture(SpotWidget):
 
         # Figure out color. If it is None we don't draw anything.
         color = self.colors[frame_number % self.cycle_length]
-        print("Here", color)
         if color is None:
             return
 
