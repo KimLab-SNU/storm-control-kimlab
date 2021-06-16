@@ -96,7 +96,6 @@ class SpotGraph(SpotWidget):
         # Points
         for i in range(self.data.size):
             #print("cycle_length = ",self.cycle_length)
-            #print(self.colors)
             color = self.colors[i % self.cycle_length]
             
             if color is None:
@@ -252,6 +251,7 @@ class SpotPicture(SpotWidget):
 
         # Figure out color. If it is None we don't draw anything.
         color = self.colors[frame_number % self.cycle_length]
+        print("Here", color)
         if color is None:
             return
 

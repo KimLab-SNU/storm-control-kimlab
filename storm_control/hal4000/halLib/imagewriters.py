@@ -148,17 +148,17 @@ class DaxFile(BaseFileWriter):
         except ValueError as e:
             print("Got an image with an unexpected size, ", image_data.shape, "expected [", w, ",", h, "]")
             return
-        #print("image_data : ", image_data)
+        
         # flip horizontally_left to right by IOAH 2021.03.22.
         new_image = np.fliplr(image_data)
-        #print("fliped : " , new_image)
+        
         # Rotate -90 degree, counterclockwise by IOAH
         #rot_image = np.rot90(new_image, 1, axes = (0,1))
         rot_image = np.rot90(new_image, 1, axes = (1,0))
         rot_image.tofile(self.fp)
         #########################
+        
         np_data = frame.getData()
-        #print("np_data : ", np_data)
 
 
 

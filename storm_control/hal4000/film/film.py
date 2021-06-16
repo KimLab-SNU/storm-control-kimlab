@@ -697,7 +697,6 @@ class Film(halModule.HalModule):
         
         # Start filming.
         self.waiting_on = copy.copy(self.wait_for)
-        print("WOW : ", self.waiting_on)
         self.sendMessage(halMessage.HalMessage(sync = True,
                                                m_type = "start film",
                                                data = {"film settings" : self.film_settings}))
