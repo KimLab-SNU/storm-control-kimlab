@@ -233,7 +233,7 @@ class AOTF64Bit(AOTF):
         # Create socket.
         self.aotf_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #        self.aotf_socket.settimeout(1.0)
-        self.aotf_socket.bind(("127.0.0.1", 9001))
+        self.aotf_socket.bind(("127.0.0.1", 9001)) #9001
 
         # Create sub-process to control the AOTF.
         ctech_dir = os.path.dirname(__file__)
